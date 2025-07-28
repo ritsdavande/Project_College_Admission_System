@@ -29,7 +29,7 @@ INSERT INTO Applications (student_id, course_id, merit_score) VALUES
 (4, 2, 78.0);
 select *from Applications;
 
---Update 
+--Update Queries
 ALTER TABLE Courses
 ADD cutoff_general FLOAT NOT NULL DEFAULT 0,
 ADD cutoff_obc FLOAT NOT NULL DEFAULT 0,
